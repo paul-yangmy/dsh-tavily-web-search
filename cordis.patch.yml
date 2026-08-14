@@ -1,0 +1,14 @@
+# dsh-tavily-web-search bundle patch: register the Tavily REST search provider
+# into ctx.web and pin the web seam to it. As the layer appended after the
+# shipped bundles, the bare `web` row restates the whole row config (a patch
+# replaces a targeted row's complete `config`) and overrides dsh-base's
+# `searchProvider: deepseek-official`. Users can override it again in their
+# profile cordis.patch.yml without touching this package.
+
+- insert:
+    - id: web-search-tavily
+      name: 'dsh-tavily-web-search'
+
+- id: web
+  config:
+    searchProvider: tavily
