@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yangmy63/dsh-tavily-web-search.git"
+    "url": "git+https://github.com/paul-yangmy/dsh-tavily-web-search.git"
   },
   "dsh": {
     "bundle": {

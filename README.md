@@ -13,7 +13,7 @@
 
 ```sh
 # 从 GitHub 安装（源码为纯 JS，无需构建授权）
-dsh plugin --profile <name> add github:yangmy63/dsh-tavily-web-search
+dsh plugin --profile <name> add github:paul-yangmy/dsh-tavily-web-search
 
 # 或本地开发链接
 dsh plugin --profile <name> add /path/to/dsh-tavily-web-search
@@ -23,7 +23,7 @@ dsh plugin --profile <name> add ./dsh-tavily-web-search-0.1.0.tgz
 dsh plugin --profile <name> add dsh-tavily-web-search
 ```
 
-> 安全建议：从 git 安装时锁定 commit（`github:yangmy63/dsh-tavily-web-search#<sha>`），避免后续推送改变实际运行的代码。
+> 安全建议：从 git 安装时锁定 commit（`github:paul-yangmy/dsh-tavily-web-search#<sha>`），避免后续推送改变实际运行的代码。
 
 ## 配置
 
